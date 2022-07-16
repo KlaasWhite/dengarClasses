@@ -41,7 +41,7 @@ const generate = () => {
             html += `</table></td></tr>`;
             html += `</table>`;
         });
-
+        console.log(html);
         document.getElementById("root").innerHTML = html;
     });
 };
