@@ -346,7 +346,7 @@
             "name": "Deprived",
             "health": 20,
             "description": "This class has nothing special to offer apart from some mild enthusiasm. Not recommended in a competitive environment.",
-            "dengarModifiers": [""],
+            "dengarModifiers": [],
             "positiveModifiers": [
                 "Moderate enthusiasm and willingness to try their best against all the odds"
             ],
