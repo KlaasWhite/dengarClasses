@@ -4,7 +4,7 @@ const generate = () => {
         html += "<table>";
         json.classes.forEach((ctwClass) => {
             html += `<tr><td class="top-td"><table><tr>`;
-            html += `<td><h2>%${ctwClass.name}</h2></td>`;
+            html += `<td><h2>${ctwClass.name}</h2></td>`;
             html += `<tr><td class="health">Health:`;
             for (let i = 0; i < ctwClass.health / 2; i++) {
                 html += `<img src="pictures/hp.png" class="health-img"/>`;
