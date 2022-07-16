@@ -12,7 +12,7 @@ const generate = () => {
             html += `(${ctwClass.health} / ${
                 ctwClass.health > 20
                     ? `+${ctwClass.health - 20}`
-                    : `${20 - ctwClass - health}`
+                    : `${20 - ctwClass.health}`
             })`;
             html += `</td></tr><tr><td class="description">`;
             html += `${ctwClass.description}`;
