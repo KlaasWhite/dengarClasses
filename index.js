@@ -12,7 +12,7 @@ const generate = () => {
             html += `(${ctwClass.health} / ${
                 ctwClass.health > 20
                     ? `+${ctwClass.health - 20}`
-                    : `${20 - ctwClass.health}`
+                    : `-${20 - ctwClass.health}`
             })`;
             html += `</td></tr><tr><td class="description">`;
             html += `${ctwClass.description}`;
@@ -31,7 +31,7 @@ const generate = () => {
                 html += `${modifier}`;
                 html += `</td></tr></table></td></tr>`;
             });
-            ctwClass.positiveModifiers.forEach((modifier) => {
+            ctwClass.negativeModifiers.forEach((modifier) => {
                 html += `<tr><td class="modifier-element"><table class="modifier"><tr><td class="modifier-negative">
                 <div>-</div></td>`;
                 html += `<td class="modifier-desc">`;
