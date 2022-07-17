@@ -83,10 +83,8 @@
         {
             "name": "Rogue",
             "health": 20,
-            "description": "Gets haste II + speed I when above 10HP",
-            "dengarModifiers": [
-                "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant."
-            ],
+            "description": "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant.",
+            "dengarModifiers": ["Gets haste II + speed I when above 10HP"],
             "positiveModifiers": ["Increased attack speed with swords (+50%)"],
             "negativeModifiers": ["Decreased mining speed (-70%)"]
         },
