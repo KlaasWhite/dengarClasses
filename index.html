@@ -16,147 +16,17 @@
             crossorigin="anonymous"
         ></script>
         <link rel="stylesheet" href="styles.css" />
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="./font/minecraft.css" />
+        <script
+            src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+            crossorigin="anonymous"
+        ></script>
     </head>
     <body>
-        <h1>The CTW classes, Dengar style</h1>
-        <div id="root">
-            <table>
-                <tr>
-                    <td class="top-td">
-                        <table>
-                            <tr>
-                                <td><h2>Voodoo</h2></td>
-                            </tr>
-                            <tr>
-                                <td class="health">
-                                    Health:
-                                    <img
-                                        src="pictures/hp.png"
-                                        class="health-img"
-                                    /><img
-                                        src="pictures/hp.png"
-                                        class="health-img"
-                                    />
-                                    (20 / +0)
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="description">
-                                    The Voodoo carries a cacophony of corrosive
-                                    concoctions that constantly cycle. Give
-                                    close monsters and enemy players your own
-                                    debuffs while spreading the strength of your
-                                    buffs to your teammates with this unique
-                                    support class.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="modifier-element">
-                                    <table class="modifier">
-                                        <tr>
-                                            <td class="modifier-positive">
-                                                <div
-                                                    class="modifier-positive-div"
-                                                >
-                                                    +
-                                                </div>
-                                            </td>
-                                            <td class="modifier-desc">
-                                                Poison, Wither, Weakness,
-                                                Hunger, Slowness, Mining Fatigue
-                                                and Fire effects applied to them
-                                                will instead apply to the
-                                                closest unafflicted enemy within
-                                                7 blocks Poison, Wither,
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="modifier-element">
-                                    <table class="modifier">
-                                        <tr>
-                                            <td class="modifier-dengar">
-                                                <div></div>
-                                                    <img
-                                                        src="pictures/Dengar.png"
-                                                    />
-                                                </div>
-                                            </td>
-                                            <td class="modifier-desc">
-                                                Poison, Wither, Weakness,
-                                                Hunger, Slowness, Mining Fatigue
-                                                and Fire effects applied to them
-                                                will instead apply to the
-                                                closest unafflicted enemy within
-                                                7 blocks Poison, Wither,
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td class="modifier-element">
-                                    <table class="modifier">
-                                        <tr>
-                                            <td class="modifier-negative">
-                                                <div
-                                                    
-                                                >
-                                                    -
-                                                </div>
-                                            </td>
-                                            <td class="modifier-desc">
-                                                Poison, Wither, Weakness,
-                                                Hunger, Slowness, Mining Fatigue
-                                                and Fire effects applied to them
-                                                will instead apply to the
-                                                closest unafflicted enemy within
-                                                7 blocks Poison, Wither,
-                                            </td>
-                                        </tr>
-                                    </table>
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="top-td">
-                        <table class="even-class">
-                            <tr>
-                                <td><h2>Voodoo</h2></td>
-                            </tr>
-                            <tr>
-                                <td>Health</td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    The Voodoo carries a cacophony of corrosive
-                                    concoctions that constantly cycle. Give
-                                    close monsters and enemy players your own
-                                    debuffs while spreading the strength of your
-                                    buffs to your teammates with this unique
-                                    support class.
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    The Voodoo carries a cacophony of corrosive
-                                    concoctions that constantly cycle. Give
-                                    close monsters and enemy players your own
-                                    debuffs while spreading the strength of your
-                                    buffs to your teammates with this unique
-                                    support class.
-                                </td>
-                            </tr>
-                        </table>
-                    </td>
-                </tr>
-            </table>
-        </div>
+        <h1 id="title">The CTW classes, Dengar style</h1>
+        <div id="root"></div>
     </body>
+    <script src="data.js"></script>
     <script src="index.js"></script>
 </html>

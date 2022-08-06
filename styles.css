@@ -6,9 +6,44 @@ body {
 
 #root {
     text-align: left;
-    width: 35%;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
+}
+
+#class-icon-table {
+    width: 100%;
+}
+
+#class-icons {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#class-display {
+    padding-top: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+#class-display h2 {
+    font-family: "Minecraft Regular";
+    font-weight: normal;
+    font-size: 300%;
+}
+
+.class-icon-element {
+    width: 9%;
+}
+
+.class-icon {
+    width: 100%;
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 
 .top-td {
@@ -26,33 +61,51 @@ body {
 
 .description {
     padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.modifier-element {
+    padding-top: 10px;
 }
 
 .modifier {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     vertical-align: top;
 }
 
+.modifier-dengar {
+    font-weight: bold;
+}
+
 .modifier-positive {
-    font-size: 4em;
-    color: green;
-    width: 10%;
+    fill: green;
+}
+
+.modifier-positive text {
+    fill: green;
 }
 
 .modifier-negative {
-    font-size: 4em;
-    color: red;
-    width: 10%;
+    fill: red;
 }
 
-.modifier-dengar {
-    font-size: 4em;
-    color: green;
-    width: 10%;
-}
-
-.modifier-dengar img {
+.modifier img {
     width: 100%;
+}
+
+.modifier-dengar .modifier-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.modifier-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.modifier-icon svg {
+    width: 20px;
+    height: 20px;
 }
