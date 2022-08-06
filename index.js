@@ -85,24 +85,27 @@ const generate = (classes) => {
 };
 
 const getData = () => {
-    if (devmode) {
-        return data;
-    } else {
-        $.getJSON("data.json", function (json) {
-            return json;
-        });
-    }
+    return new Promise((resolve, reject) => {
+        if (devmode) {
+            resolve(data);
+        } else {
+            $.getJSON("data.json", function (json) {
+                resolve(json);
+            });
+        }
+    });
 };
 
 const init = () => {
-    let classData = getData();
-    console.log(classData);
+    let classData = getData().then((data) => {
+        console.log(classData);
 
-    classes = classData.classes;
+        classes = classData.classes;
 
-    generate(classData.classes);
-    setEventListeners(classData.classes);
-    displaySelectedClass();
+        generate(classData.classes);
+        setEventListeners(classData.classes);
+        displaySelectedClass();
+    });
 };
 
 init();
