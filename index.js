@@ -96,16 +96,15 @@ const getData = () => {
     });
 };
 
-const init = () => {
-    let classData = getData().then((data) => {
-        console.log(classData);
+const init = async () => {
+    let classData = await getData();
+    console.log(classData);
 
-        classes = classData.classes;
+    classes = classData.classes;
 
-        generate(classData.classes);
-        setEventListeners(classData.classes);
-        displaySelectedClass();
-    });
+    generate(classData.classes);
+    setEventListeners(classData.classes);
+    displaySelectedClass();
 };
 
 init();
