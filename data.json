@@ -1,11 +1,11 @@
 {
     "classes": [
         {
-           "name": "Strongman",
-           "color": "FE8E45",
-           "health": 22,
-            "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!"
-           "dengarModifiers": [
+            "name": "Strongman",
+            "color": "FE8E45",
+            "health": 22,
+            "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!",
+            "dengarModifiers": [
                 "Receives no gravity tnt that is automatically ignited"
             ],
             "positiveModifiers": [
@@ -61,7 +61,10 @@
             "color": "9FEF00",
             "health": 20,
             "description": "Eggsplosives ahead as the Trapping Turtle takes to the field. With devastating placeable mines, secure a defence for your team or turn the enemy’s dungeon into a minefield with this explosive class!",
-            "dengarModifiers": ["Periodically gets single use eggs", "Gets 2 absorbtion hearts when placing all eggs, has 30 seconds cooldown*"],
+            "dengarModifiers": [
+                "Periodically gets single use eggs",
+                "Gets 2 absorbtion hearts when placing all eggs, has 30 seconds cooldown*"
+            ],
             "positiveModifiers": [
                 "Gain 5 placeable turtle eggs that give Slowness III and explode when stepped on. Triggered eggs return to your inventory",
                 "Shift and right click while holding the eggs / helmet to recall the oldest egg",
@@ -96,7 +99,10 @@
             "color": "9FEF00",
             "health": 20,
             "description": "This class should focus on PvE. The Explorer is a support; they are exceptional at clearing dungeons and creating infrastructure. Diggy diggy hole.",
-            "dengarModifiers": ["Gets free scaffolding and steak", "Gains regen II for 1 second when killing a mob (half a heart)"],
+            "dengarModifiers": [
+                "Gets free scaffolding and steak",
+                "Gains regen II for 1 second when killing a mob (half a heart)"
+            ],
             "positiveModifiers": [
                 "Increased mining speed (+40%)",
                 "Increased resistance to environmental damage and mobs (+20%)"
@@ -116,7 +122,7 @@
                 "Increased attack speed with swords (+50%)",
                 "Right click with a sword while sprinting to dash once every 12 seconds",
                 "Can crit when blind",
-                "Increased damage when attacking an enemy from behind (+50%)"               
+                "Increased damage when attacking an enemy from behind (+50%)"
             ],
             "negativeModifiers": ["Decreased mining speed (-70%)"]
         },
@@ -125,7 +131,10 @@
             "color": "B047F9",
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
-            "dengarModifiers": ["Gets protection II shield with mending", "Shield also gives plus one armour"],
+            "dengarModifiers": [
+                "Gets protection II shield with mending",
+                "Shield also gives plus one armour"
+            ],
             "positiveModifiers": [
                 "Break webs as they pass through",
                 "Increased maximum health points (+10)"
@@ -234,7 +243,10 @@
             "positiveModifiers": [
                 "Clear Poison and Wither effects from themselves and their teammates in a 5 block radius around them"
             ],
-            "negativeModifiers": ["Decreased maximum health points (-2)", "Gain Slowness of the same level and duration as cleared effects"]
+            "negativeModifiers": [
+                "Decreased maximum health points (-2)",
+                "Gain Slowness of the same level and duration as cleared effects"
+            ]
         },
         {
             "name": "Looter",
@@ -243,7 +255,7 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Starts with a crossbow which magically reloads on kill (needs to be in offhand)
+                "Starts with a crossbow which magically reloads on kill (needs to be in offhand)"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
@@ -257,7 +269,9 @@
             "color": "B047F9",
             "health": 20,
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
-            "dengarModifiers": ["Any player within 7 blocks that kill a mob get speed I for 3 seconds"],
+            "dengarModifiers": [
+                "Any player within 7 blocks that kill a mob get speed I for 3 seconds"
+            ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
             ],
@@ -335,9 +349,7 @@
             "color": "FE8E45",
             "health": 20,
             "description": "The Spider is able to scurry through even the thickest webs to escape enemies, and spin up their own in order to trap their prey.",
-            "dengarModifiers": 
-                "Gets cave spider spawn eggs periodically"
-            ],
+            "dengarModifiers": ["Gets cave spider spawn eggs periodically"],
             "positiveModifiers": [
                 "Increased movement speed and Regeneration in cobwebs",
                 "Increased cobweb placement range (+3)",
