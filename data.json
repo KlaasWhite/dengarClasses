@@ -1,7 +1,7 @@
 {
     "classes": [
         {
-           "strongman
+           "name": "Strongman",
            "color": "FE8E45",
            "health": 22,
             "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!"
