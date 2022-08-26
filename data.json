@@ -63,13 +63,14 @@
             "description": "Eggsplosives ahead as the Trapping Turtle takes to the field. With devastating placeable mines, secure a defence for your team or turn the enemy’s dungeon into a minefield with this explosive class!",
             "dengarModifiers": [
                 "Periodically gets single use eggs",
-                "Gets 2 absorbtion hearts when placing all eggs, has 30 seconds cooldown*"
+                "Gets 2 absorbtion hearts when placing all eggs, has 30 seconds cooldown*",
+                "Gains resistance on placing an egg"
             ],
             "positiveModifiers": [
                 "Gain 5 placeable turtle eggs that give Slowness III and explode when stepped on. Triggered eggs return to your inventory",
                 "Shift and right click while holding the eggs / helmet to recall the oldest egg",
-                "Trapping Turtles can trigger eggs with arrows",
-                "Gains resistance on placing an egg"
+                "Trapping Turtles can trigger eggs with arrows"
+                
             ],
             "negativeModifiers": [
                 "Eggs cannot be placed for 5 seconds after recall",
