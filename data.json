@@ -68,7 +68,8 @@
             "positiveModifiers": [
                 "Gain 5 placeable turtle eggs that give Slowness III and explode when stepped on. Triggered eggs return to your inventory",
                 "Shift and right click while holding the eggs / helmet to recall the oldest egg",
-                "Trapping Turtles can trigger eggs with arrows"
+                "Trapping Turtles can trigger eggs with arrows",
+                "Gains resistance on placing an egg"
             ],
             "negativeModifiers": [
                 "Eggs cannot be placed for 5 seconds after recall",
@@ -101,7 +102,8 @@
             "description": "This class should focus on PvE. The Explorer is a support; they are exceptional at clearing dungeons and creating infrastructure. Diggy diggy hole.",
             "dengarModifiers": [
                 "Gets free scaffolding and steak",
-                "Gains regen II for 1 second when killing a mob (half a heart)"
+                "Gains regen II for 1 second when killing a mob (half a heart)",
+                "Gets haste IV on killing a mob (does not stack with haste II)"
             ],
             "positiveModifiers": [
                 "Increased mining speed (+40%)",
@@ -255,7 +257,8 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Starts with a crossbow which magically reloads on kill (needs to be in offhand)"
+                "Starts with a crossbow which magically reloads on kill (needs to be in offhand)",
+                "On that reload will have 3 arrows loaded (and functions as multishot)"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
