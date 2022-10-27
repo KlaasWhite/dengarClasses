@@ -301,7 +301,8 @@
             "description": "This class is an excellent healer. It carries its blessed spell-book that allows it to heal their teammates with a single hit. It also carries a whip in case your teammates don't behave. Don't hit too hard though, it might throw your teammate into the lions' den. Or even worse, into the void!",
             "dengarModifiers": [
                 "Resistance I when near full hp ally",
-                "Speed I when near ally with less than 10hp"
+                "Speed I when near ally with less than 10hp",
+                "Periodically gets a Lingering Levitation + Slow Fall Potion"
             ],
             "positiveModifiers": [
                 "Hitting teammates applies instant health (+3), unless they are shielding"
@@ -314,8 +315,9 @@
             "health": 20,
             "description": "This class is a fast and frantic fighter. The Barbarian, driven wild with hunger, is quick to whip up a frenzy in close combat with their fierce lunging ability.",
             "dengarModifiers": [
-                "When at 16 or less drumsticks gains saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 5 Seconds (2 Hearts)",
-                "When at 16 or less drumsticks gains Speed I and Resistance I for 10 seconds"
+                "When at 16 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 5 Seconds (2 Hearts)",
+                "When at 16 or less drumsticks gains Speed I and Resistance I for 10 seconds",
+                "When at 18 or less drumsticks gains Hunger 5"
             ],
             "positiveModifiers": [
                 "Double tap space to leap forward with increased speed once every 5 seconds"
@@ -364,7 +366,7 @@
             "color": "FE8E45",
             "health": 20,
             "description": "The Spider is able to scurry through even the thickest webs to escape enemies, and spin up their own in order to trap their prey.",
-            "dengarModifiers": ["Gets cave spider spawn eggs periodically"],
+            "dengarModifiers": ["Gets cave spider spawn eggs periodically", "Gains 2 Absorption hearts when near a cave spider (Refreshes every 15 seconds)"],
             "positiveModifiers": [
                 "Increased movement speed and Regeneration in cobwebs",
                 "Increased cobweb placement range (+3)",
@@ -395,9 +397,8 @@
             "description": "The Enchanter loves XP, and gets bonuses by picking it up. With this XP they're able to help the team out by enchanting their items with the anvil they always carry around.",
             "dengarModifiers": [
                 "Periodically gets XP bottle",
-                "Has anvil which gives slowness I, knockback resistance completely and knockback",
-                "Receives amethyst blocks",
-                "When on amethyst blocks, gains speed II for 3 seconds"
+                "Periodically recieves blue, pink and green carpets",
+                "Players on carpets recieve Speed, Regeneration or Jump Boost temporarily"
             ],
             "positiveModifiers": [
                 "Increased XP drops (+100%)",
@@ -416,7 +417,7 @@
             "description": "When threatened, the Iceman can summon an invulnerable shield of ice around themselves. Additionally, their punches carry a chill, slowing any players they hit, although they are vulnerable to fire.",
             "dengarModifiers": [
                 "When it touches the orb creates area of effect slow",
-                "When below half HP gains speed and haste"
+                "Periodically recieves Blue Ice Insta-Bridge"
             ],
             "positiveModifiers": [
                 "Right click the icy core to gain Regeneration and generate an invulnerable shield of ice around themselves",
