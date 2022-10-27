@@ -6,7 +6,8 @@
             "health": 22,
             "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!",
             "dengarModifiers": [
-                "Receives no gravity tnt that is automatically ignited"
+                "Receives no gravity tnt that is automatically ignited",
+                "Gains Resistance and Speed with an empty offhand"
             ],
             "positiveModifiers": [
                 "With an empty offhand right click allies, mobs and lit TNT to pick up and throw them, with 3 second cooldown after throwing",
@@ -43,7 +44,8 @@
             "health": 20,
             "description": "Protect their team from angry mobs as the Shieldmaiden. With your powerful shields, draw in aggro, reflect damage and even shield bash your way to victory while tanking for your team.",
             "dengarModifiers": [
-                "Spikey shield with mending II, projectile protection and 30 % knockback resistance (piece of netherite)"
+                "Spikey shield with mending, projectile protection and 40 % knockback resistance (piece of netherite)",
+                "Innate Projectile Protection III and Protection I"
             ],
             "positiveModifiers": [
                 "50% of shielded melee damage is reflected at the attacker",
@@ -63,8 +65,8 @@
             "description": "Eggsplosives ahead as the Trapping Turtle takes to the field. With devastating placeable mines, secure a defence for your team or turn the enemy’s dungeon into a minefield with this explosive class!",
             "dengarModifiers": [
                 "Periodically gets single use eggs",
-                "Gets 2 absorbtion hearts when placing all eggs, has 30 seconds cooldown*",
-                "Gains resistance on placing an egg"
+                "Gets 2 absorbtion hearts when placing all eggs, has 15 seconds cooldown*",
+                "Gains Resistance II on placing an egg"
             ],
             "positiveModifiers": [
                 "Gain 5 placeable turtle eggs that give Slowness III and explode when stepped on. Triggered eggs return to your inventory",
@@ -85,8 +87,8 @@
             "health": 20,
             "description": "Come hither Lute Boi, play us a tune. I care not if the enemy hears; lift all of our spirits with your rendition of the E song.",
             "dengarModifiers": [
-                "Gives resistance to all allies above 18 health within 7 blocks",
-                "Gets earpods effected by the music disc in top left slot when above half hp"
+                "Gives resistance to all allies above 14 health within 7 blocks",
+                "Gets earpods effected by the music disc in top left slot when above half hp (Haste/Speed/Absorption)"
             ],
             "positiveModifiers": [
                 "All players (including themselves if anyone is around) in a 5 block radius around them gain Regeneration",
@@ -103,8 +105,9 @@
             "description": "This class should focus on PvE. The Explorer is a support; they are exceptional at clearing dungeons and creating infrastructure. Diggy diggy hole.",
             "dengarModifiers": [
                 "Gets free scaffolding and steak",
-                "Gains regen II for 1 second when killing a mob (half a heart)",
-                "Gets haste IV on killing a mob (does not stack with haste II)"
+                "Gains Regen II for 1 second when killing a mob (half a heart)",
+                "Gains Haste III for 5 seconds when killing a mob",
+                "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 4 armour and 15% movement speed)"
             ],
             "positiveModifiers": [
                 "Increased mining speed (+40%)",
@@ -120,7 +123,10 @@
             "color": "DF56A6",
             "health": 20,
             "description": "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant.",
-            "dengarModifiers": ["Gets haste II when above 10HP"],
+            "dengarModifiers": [
+                "Gets haste II when above 10HP",
+                "Can carry a single smoke bomb (Places a cloud of smoke which give speed and invisibility temporarily)"
+            ], 
             "positiveModifiers": [
                 "Increased attack speed with swords (+50%)",
                 "Right click with a sword while sprinting to dash once every 12 seconds",
@@ -135,8 +141,7 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Gets protection II shield with mending",
-                "Shield also gives plus one armour"
+                "Gets Projectile Protection IV, +2 Armour Shield which gives -20% Movement Speed (Can be given to others)"
             ],
             "positiveModifiers": [
                 "Break webs as they pass through",
@@ -152,7 +157,10 @@
             "color": "FE8E45",
             "health": 18,
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
-            "dengarModifiers": ["Permanent iron boots with feather falling IV"],
+            "dengarModifiers": [
+                "Permanent iron boots with feather falling II", 
+                "Has additional Unbreakable Iron Boots with Feather Falling I and +20% Movement Speed"
+            ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
                 "Jump Boost II"
@@ -168,7 +176,7 @@
             "health": 20,
             "description": "This class excels at holding enemies at distance. The Ranger fires arrows which fly further, faster and deal more damage.",
             "dengarModifiers": [
-                "Gets bow with punch I, power I, projectile protection IV, knockback I and unbreakability"
+                "Gets bow with punch I, power I, projectile protection II, knockback I and unbreakability (Can be enhanced)"
             ],
             "positiveModifiers": [
                 "Supply of poison arrows per life (+32)",
@@ -183,7 +191,7 @@
             "description": "This class is designed exclusively for PvP. The Illusionist can disguise their outline as they creep around the map, taking the opposing team by surprise. The lower health, however, makes PvE dangerous.",
             "dengarModifiers": [
                 "Is fully invisible when on full hp and not within 15 blocks of an enemy",
-                "When exiting their chest, will obtain speed and regen (2 hearts)"
+                "When exiting their chest, will obtain Speed, Resistance and Regen (2 hearts)"
             ],
             "positiveModifiers": [
                 "Hides their own glowing outline, except when carrying wool or a key",
@@ -201,7 +209,7 @@
             "description": "This class is effective in PvP. The devastating sword swings of the Executioner can break shields like axes, and they can slow their opponents.",
             "dengarModifiers": [
                 "On kill area off effect debuffs: weakness, slowness and mining fatigue",
-                "Gains regen and speed on kill"
+                "Gains regen on kill"
             ],
             "positiveModifiers": [
                 "Swords break shields for a short duration (3s)",
@@ -241,7 +249,7 @@
             "description": "This class specialises in PvE. The Plague Doctor mitigates toxic effects, neutralising many enemies.",
             "dengarModifiers": [
                 "Gets resistance and fire resistance when at full hp (lingers couple of seconds)",
-                "Gives players within 5 blocks poison I for 3 seconds"
+                "Gets 2? Lingering Poison II and Slowness III Potions (10 Seconds of effects)"
             ],
             "positiveModifiers": [
                 "Clear Poison and Wither effects from themselves and their teammates in a 5 block radius around them"
@@ -258,8 +266,8 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Starts with a crossbow which magically reloads on kill (needs to be in offhand)",
-                "On that reload will have 3 arrows loaded (and functions as multishot)"
+                "Starts with a Quick Charge Crossbow which magically reloads on kill with a firework (needs to be in offhand)",
+                "Has Two additional Crossbows which magically reload on kill with a firework (needs to be in offhand and can be used by other players)"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
@@ -274,7 +282,8 @@
             "health": 20,
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
             "dengarModifiers": [
-                "Any player within 7 blocks that kill a mob get speed I for 3 seconds"
+                "Any player within 7 blocks that kill a mob get speed I for 3 seconds",
+                "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)" 
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
@@ -305,7 +314,8 @@
             "health": 20,
             "description": "This class is a fast and frantic fighter. The Barbarian, driven wild with hunger, is quick to whip up a frenzy in close combat with their fierce lunging ability.",
             "dengarModifiers": [
-                "When at 6 or less drumsticks gains saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation)"
+                "When at 16 or less drumsticks gains saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 5 Seconds (2 Hearts)",
+                "When at 16 or less drumsticks gains Speed I and Resistance I for 10 seconds"
             ],
             "positiveModifiers": [
                 "Double tap space to leap forward with increased speed once every 5 seconds"
@@ -340,7 +350,8 @@
             "health": 24,
             "description": "This class is a real piece of work. Though sluggish, when taking damage the Pestilent inflicts their foes with a deep withering poison.",
             "dengarModifiers": [
-                "All players nearby who are withered will also be slowed (slowness III)"
+                "All players nearby who are withered will also be slowed (slowness III)",
+                "Cannot be Withered"
             ],
             "positiveModifiers": [
                 "While taking physical damage, apply Wither to enemies within a 5 block radius",
