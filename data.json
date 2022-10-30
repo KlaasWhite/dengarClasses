@@ -25,7 +25,8 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Periodically (max 1) gets lingering potion with speed II, haste II, regeneration II, Mining fatigue II and wither"
+                "Periodically (max 1) gets lingering potion with speed II, haste II, regeneration II, Mining fatigue II and wither",
+                "Has a Cursed Doll (Gives +3 Armour Toughness when held) which causes all nearby players with the same or more hp than them to become Withered when held "
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Slowness, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -141,7 +142,8 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Gets Projectile Protection IV, +2 Armour Shield which gives -20% Movement Speed (Can be given to others)"
+                "Recieves Very Large Javelin (Powerful thrown trident with extremely long melee attack recharge, will recieve a new one if lost)",
+                "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
             ],
             "positiveModifiers": [
                 "Break webs as they pass through",
@@ -317,7 +319,8 @@
             "dengarModifiers": [
                 "When at 16 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 5 Seconds (2 Hearts)",
                 "When at 16 or less drumsticks gains Speed I and Resistance I for 10 seconds",
-                "When at 18 or less drumsticks gains Hunger 5"
+                "When at 18 or less drumsticks gains Hunger 5",
+                "Starts with a Mystical Golden Axe (Give +2 Armour and +20% Attack Speed in offhand)"
             ],
             "positiveModifiers": [
                 "Double tap space to leap forward with increased speed once every 5 seconds"
@@ -366,7 +369,8 @@
             "color": "FE8E45",
             "health": 20,
             "description": "The Spider is able to scurry through even the thickest webs to escape enemies, and spin up their own in order to trap their prey.",
-            "dengarModifiers": ["Gets cave spider spawn eggs periodically", "Gains 2 Absorption hearts when near a cave spider (Refreshes every 15 seconds)"],
+            "dengarModifiers": ["Gets cave spider spawn eggs periodically", "Gains 2 Absorption hearts when near a cave spider (Refreshes every 15 seconds)",
+                                "Periodically gets two Copious Amounts of Webs in a Bottle (Splash Potion which applies Slowness X for 10 seconds and Slowness IV for 10 seconds)"],
             "positiveModifiers": [
                 "Increased movement speed and Regeneration in cobwebs",
                 "Increased cobweb placement range (+3)",
