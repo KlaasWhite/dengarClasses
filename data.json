@@ -161,7 +161,7 @@
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
             "dengarModifiers": [
                 "Permanent iron boots with feather falling II", 
-                "Has additional Unbreakable Iron Boots with Feather Falling I and +20% Movement Speed"
+                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed and -2 Max HP"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
