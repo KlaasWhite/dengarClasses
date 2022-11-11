@@ -233,7 +233,7 @@
                 "Free TNT",
                 "Blebshard (right click gunpowder to explode into more tnt)",
                 "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks on 10 ticks",
-                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks"'
+                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks",
                 "If a TNT is next to the gren and about to explode (2? Block Radius from feet), gains resistance 3 for 1 second (do a YUMP OOOO)"
             ],
             "positiveModifiers": [
