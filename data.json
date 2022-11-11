@@ -25,8 +25,8 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Periodically (max 1) gets lingering potion with speed II, haste II, regeneration II, Mining fatigue II and wither",
-                "Has a Cursed Doll (Gives +3 Armour Toughness when held) which causes all nearby players with the same or more hp than them to become Withered when held "
+                "Has a Cursed Doll (+3 Armour Toughness and +2 Armour when in offhand)",
+                "Whilst holding Doll players with >= Voodoo hp are slowed and withered and those < Voodoo hp are slowed slightly"
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Slowness, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -45,7 +45,7 @@
             "health": 20,
             "description": "Protect their team from angry mobs as the Shieldmaiden. With your powerful shields, draw in aggro, reflect damage and even shield bash your way to victory while tanking for your team.",
             "dengarModifiers": [
-                "Spikey shield with mending, projectile protection and 40 % knockback resistance (piece of netherite)",
+                "Spikey shield with Mending, Thorns X, Unbreaking 2? and 40 % knockback resistance (piece of netherite) [Starts off damaged]",
                 "Innate Projectile Protection III and Protection I"
             ],
             "positiveModifiers": [
@@ -233,7 +233,8 @@
                 "Free TNT",
                 "Blebshard (right click gunpowder to explode into more tnt)",
                 "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks on 10 ticks",
-                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks"
+                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks"'
+                "If a TNT is next to the gren and about to explode (2? Block Radius from feet), gains resistance 3 for 1 second (do a YUMP OOOO)"
             ],
             "positiveModifiers": [
                 "Ignites TNT instantly and drops primed TNT on PVP death",
@@ -402,7 +403,8 @@
             "dengarModifiers": [
                 "Periodically gets XP bottle",
                 "Periodically recieves blue, pink and green carpets",
-                "Players on carpets recieve Speed, Regeneration or Jump Boost temporarily"
+                "Players on carpets recieve Speed, Regeneration or Jump Boost temporarily",
+                "Hold Time Crystal to accelerate own time temporarily for the cost of XP (Speed 5, Haste 5 for 3 seconds [Uses 200XP])"
             ],
             "positiveModifiers": [
                 "Increased XP drops (+100%)",
