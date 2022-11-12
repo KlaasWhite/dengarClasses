@@ -26,7 +26,7 @@
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
                 "Has a Cursed Doll (+3 Armour Toughness and +2 Armour when in offhand)",
-                "Whilst holding Doll players with >= Voodoo hp are slowed and withered and those < Voodoo hp are slowed slightly"
+                "Whilst holding Doll players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1"
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Slowness, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -142,7 +142,8 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Recieves Very Large Javelin (Powerful thrown trident with extremely long melee attack recharge, will recieve a new one if lost)",
+                "Recieves Mini-Bucklers (25 Durability +2 armour + armour toughness shields) periodically",
+                "Has speed 1 when no offhand shield"
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
             ],
             "positiveModifiers": [
@@ -234,7 +235,7 @@
                 "Blebshard (right click gunpowder to explode into more tnt)",
                 "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks on 10 ticks",
                 "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks",
-                "If a TNT is next to the gren and about to explode (2? Block Radius from feet), gains resistance 3 for 1 second (do a YUMP OOOO)"
+                "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)"
             ],
             "positiveModifiers": [
                 "Ignites TNT instantly and drops primed TNT on PVP death",
