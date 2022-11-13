@@ -143,7 +143,7 @@
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
                 "Recieves Mini-Bucklers (25 Durability +2 armour + armour toughness shields) periodically",
-                "Has speed 1 when no offhand shield"
+                "Has speed 1 when no offhand shield",
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
             ],
             "positiveModifiers": [
