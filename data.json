@@ -7,7 +7,8 @@
             "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!",
             "dengarModifiers": [
                 "Receives no gravity tnt that is automatically ignited",
-                "Gains Resistance and Speed with an empty offhand"
+                "Gains Resistance and Speed with an empty offhand",
+                "Gains resistance to TNT that blows up on skull"
             ],
             "positiveModifiers": [
                 "With an empty offhand right click allies, mobs and lit TNT to pick up and throw them, with 3 second cooldown after throwing",
@@ -25,8 +26,8 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Has a Cursed Doll (+3 Armour Toughness and +2 Armour when in offhand)",
-                "Whilst holding Doll players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1"
+                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour and -25% Speed when in offhand)",
+                "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1"
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Slowness, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -88,7 +89,7 @@
             "health": 20,
             "description": "Come hither Lute Boi, play us a tune. I care not if the enemy hears; lift all of our spirits with your rendition of the E song.",
             "dengarModifiers": [
-                "Gives resistance to all allies above 18 health within 7 blocks",
+                "Gives resistance to all players above 18 health within 7 blocks",
                 "Gets earpods effected by the music disc in top left slot when above half hp (Haste II (13s)/Speed I (13s)/Absorption (17s))"
             ],
             "positiveModifiers": [
@@ -106,7 +107,7 @@
             "description": "This class should focus on PvE. The Explorer is a support; they are exceptional at clearing dungeons and creating infrastructure. Diggy diggy hole.",
             "dengarModifiers": [
                 "Gets free scaffolding and steak",
-                "Gains Regen II for 1 second when killing a mob (half a heart)",
+                "Gains Regen II for 3 second when killing a mob (1 heart)",
                 "Gains Haste III for 5 seconds when killing a mob",
                 "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 4 armour and 15% movement speed)"
             ],
@@ -126,7 +127,7 @@
             "description": "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant.",
             "dengarModifiers": [
                 "Gets haste II when above 10HP",
-                "Can carry a single smoke bomb (Places a cloud of smoke which give speed and invisibility temporarily)"
+                "Recieves Smoke Form Potion periodically if they have no potions in inventory (Speed III, Invis, Absorption and Slow Falling for 10 seconds, Weakness and Slowness II for 20 seconds)"
             ], 
             "positiveModifiers": [
                 "Increased attack speed with swords (+50%)",
@@ -142,7 +143,7 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Recieves Mini-Bucklers (25 Durability +2 armour + armour toughness shields) periodically",
+                "Recieves Mini-Bucklers (25 Durability +2 armour and armour toughness shields) periodically",
                 "Has speed 1 when no offhand shield",
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
             ],
@@ -194,7 +195,7 @@
             "description": "This class is designed exclusively for PvP. The Illusionist can disguise their outline as they creep around the map, taking the opposing team by surprise. The lower health, however, makes PvE dangerous.",
             "dengarModifiers": [
                 "Is fully invisible when on full hp and not within 15 blocks of an enemy",
-                "When exiting their chest, will obtain Speed, Resistance and Regen (2 hearts)"
+                "When exiting their chest, will obtain Speed and Regen (2 hearts)"
             ],
             "positiveModifiers": [
                 "Hides their own glowing outline, except when carrying wool or a key",
@@ -211,7 +212,7 @@
             "health": 18,
             "description": "This class is effective in PvP. The devastating sword swings of the Executioner can break shields like axes, and they can slow their opponents.",
             "dengarModifiers": [
-                "On kill area off effect debuffs: weakness, slowness and mining fatigue",
+                "On kill area of effect debuffs: weakness, slowness and mining fatigue",
                 "Gains regen on kill"
             ],
             "positiveModifiers": [
@@ -253,7 +254,7 @@
             "description": "This class specialises in PvE. The Plague Doctor mitigates toxic effects, neutralising many enemies.",
             "dengarModifiers": [
                 "Gets resistance and fire resistance when at full hp (lingers couple of seconds)",
-                "Gets 2? Lingering Poison II and Slowness III Potions (10 Seconds of effects)"
+                "Gets 2? Lingering Poison II and Slowness III Potions (5 Seconds of effects)"
             ],
             "positiveModifiers": [
                 "Clear Poison and Wither effects from themselves and their teammates in a 5 block radius around them"
@@ -270,8 +271,7 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Starts with a Quick Charge Crossbow which magically reloads on kill with a firework (needs to be in offhand)",
-                "Has Two additional Crossbows which magically reload on kill with a firework (needs to be in offhand and can be used by other players)"
+                "Has three Quick Charge II? Crossbows which magically reload on kill with a firework (needs to be in offhand and can be used by other players)"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
@@ -403,9 +403,9 @@
             "description": "The Enchanter loves XP, and gets bonuses by picking it up. With this XP they're able to help the team out by enchanting their items with the anvil they always carry around.",
             "dengarModifiers": [
                 "Periodically gets XP bottle",
-                "Periodically recieves blue, pink and green carpets",
-                "Players on carpets recieve Speed, Regeneration or Jump Boost temporarily",
-                "Hold Time Crystal to accelerate own time temporarily for the cost of XP (Speed 5, Haste 5 for 3 seconds [Uses 200XP])"
+                "Periodically recieves blue and green carpets",
+                "Players on carpets recieve Speed or Jump Boost temporarily",
+                "Hold Space Warping Crystal to gain buffs for the cost of XP (Speed 5, Haste 5, Regen 2 for 3 seconds [Uses 100XP (Gains Luck when activatable)])"
             ],
             "positiveModifiers": [
                 "Increased XP drops (+100%)",
