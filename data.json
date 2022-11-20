@@ -320,7 +320,7 @@
             "description": "This class is a fast and frantic fighter. The Barbarian, driven wild with hunger, is quick to whip up a frenzy in close combat with their fierce lunging ability.",
             "dengarModifiers": [
                 "When at 16 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
-                "When at 16 or less drumsticks gains Speed I and Resistance I for 10 seconds",
+                "When at 16 or less drumsticks gains Speed I for 10 seconds",
                 "When at 18 or less drumsticks gains Hunger 5",
                 "Starts with a Mystical Golden Axe (Give +2 Armour and +20% Attack Speed in offhand)"
             ],
