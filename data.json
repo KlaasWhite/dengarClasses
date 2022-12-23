@@ -143,7 +143,7 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Recieves Mini-Bucklers (25 Durability +2 armour and armour toughness shields) periodically",
+                "Recieves Mini-Bucklers (25 Durability +2 armour and armour toughness shields) periodically when they have no shields in inventory",
                 "Has speed 1 when no offhand shield",
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
             ],
@@ -162,8 +162,8 @@
             "health": 18,
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
             "dengarModifiers": [
-                "Permanent iron boots with feather falling II", 
-                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed and -2 Max HP"
+                "Permanent iron boots with feather falling II, +3 Armour and +1 Armour Toughness", 
+                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
@@ -234,9 +234,10 @@
             "dengarModifiers": [
                 "Free TNT",
                 "Blebshard (right click gunpowder to explode into more tnt)",
-                "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks on 10 ticks",
-                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks on 2400 ticks",
-                "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)"
+                "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks to 15 ticks",
+                "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks to 2400 ticks",
+                "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)",
+                "Periodically gets 16 tnt spawn eggs which have a longer fuse (use with flint and steel to launch), must have non in inventory to recieve more"
             ],
             "positiveModifiers": [
                 "Ignites TNT instantly and drops primed TNT on PVP death",
@@ -254,7 +255,7 @@
             "description": "This class specialises in PvE. The Plague Doctor mitigates toxic effects, neutralising many enemies.",
             "dengarModifiers": [
                 "Gets resistance and fire resistance when at full hp (lingers couple of seconds)",
-                "Gets 2? Lingering Poison II and Slowness III Potions (5 Seconds of effects)"
+                "Gets 2? Lingering Poison II and Slowness III Potions (5 Seconds of effects), recieves more periodically if they have none"
             ],
             "positiveModifiers": [
                 "Clear Poison and Wither effects from themselves and their teammates in a 5 block radius around them"
@@ -287,7 +288,8 @@
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
             "dengarModifiers": [
                 "Any player within 7 blocks that kill a mob get speed I for 3 seconds",
-                "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)" 
+                "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)",
+                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +2 armour and 0.5 attack damage in offhand"
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
