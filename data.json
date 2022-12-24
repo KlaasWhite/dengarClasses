@@ -127,7 +127,7 @@
             "description": "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant.",
             "dengarModifiers": [
                 "Gets haste II when above 10HP",
-                "Recieves Smoke Form Potion periodically if they have no potions in inventory (Speed III, Invis, Absorption and Slow Falling for 10 seconds, Weakness and Slowness II for 20 seconds)"
+                "Recieves Smoke Form Potion periodically if they have no potions in inventory (Speed II, Invis, Absorption and Slow Falling for 15 seconds)"
             ], 
             "positiveModifiers": [
                 "Increased attack speed with swords (+50%)",
@@ -143,9 +143,9 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Recieves Mini-Bucklers (25 Durability +2 armour and armour toughness shields) periodically when they have no shields in inventory",
-                "Has speed 1 when no offhand shield",
-                "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown)"
+                "Recieves Mini-Bucklers (20 Durability +2 armour and armour toughness shields) when they have no shields in inventory",
+                "Has Speed I when no offhand shield",
+                "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown))"
             ],
             "positiveModifiers": [
                 "Break webs as they pass through",
@@ -213,7 +213,8 @@
             "description": "This class is effective in PvP. The devastating sword swings of the Executioner can break shields like axes, and they can slow their opponents.",
             "dengarModifiers": [
                 "On kill area of effect debuffs: weakness, slowness and mining fatigue",
-                "Gains regen on kill"
+                "Gains 2 Hearts on kill",
+                "Recieves Wither II and Strength I when at 4 or less HP"
             ],
             "positiveModifiers": [
                 "Swords break shields for a short duration (3s)",
@@ -234,7 +235,7 @@
             "dengarModifiers": [
                 "Free TNT",
                 "Blebshard (right click gunpowder to explode into more tnt)",
-                "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks to 15 ticks",
+                "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks to 17 ticks",
                 "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks to 2400 ticks",
                 "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)",
                 "Periodically gets 16 tnt spawn eggs which have a longer fuse (use with flint and steel to launch), must have non in inventory to recieve more"
@@ -272,7 +273,7 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Has three Quick Charge II? Crossbows which magically reload on kill with a firework (needs to be in offhand and can be used by other players)"
+                "Has 2? Quick Charge II? Crossbows which magically reload on any kill with a firework (needs to be in offhand and can be used by other players) and gives +10% Movement Speed and +20% Attack Speed"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
