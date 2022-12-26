@@ -27,10 +27,11 @@
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
                 "Has a Cursed Doll (+2 Armour Toughness, +2 Armour and -25% Speed when in offhand)",
-                "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1"
+                "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1",
+                "Removes Regeneration from neearby enemies"
             ],
             "positiveModifiers": [
-                "Poison, Wither, Weakness, Hunger, Slowness, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
+                "Poison, Wither, Weakness, Hunger, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
                 "Swiftness and Regeneration effects applied to them will instead apply to the closest unafflicted ally within 7 blocks",
                 "Gain a random potion that refreshes 7 seconds after drinking",
                 "Immune to other Voodoos"
@@ -46,7 +47,7 @@
             "health": 20,
             "description": "Protect their team from angry mobs as the Shieldmaiden. With your powerful shields, draw in aggro, reflect damage and even shield bash your way to victory while tanking for your team.",
             "dengarModifiers": [
-                "Spikey shield with Mending, Thorns X, Unbreaking 2? and 40 % knockback resistance (piece of netherite) [Starts off damaged]",
+                "Spikey shield with Mending, Thorns X, Unbreaking 2 and 40 % knockback resistance (piece of netherite) [Starts off damaged]",
                 "Innate Projectile Protection III and Protection I"
             ],
             "positiveModifiers": [
@@ -180,7 +181,7 @@
             "health": 20,
             "description": "This class excels at holding enemies at distance. The Ranger fires arrows which fly further, faster and deal more damage.",
             "dengarModifiers": [
-                "Gets bow with punch I, power I, projectile protection II, knockback I and unbreakability (Can be enhanced)"
+                "Gets bow with punch I, power I, projectile protection II, knockback I and unbreakability (Can be enhanced, base repair cost of 5)"
             ],
             "positiveModifiers": [
                 "Supply of poison arrows per life (+32)",
@@ -195,7 +196,7 @@
             "description": "This class is designed exclusively for PvP. The Illusionist can disguise their outline as they creep around the map, taking the opposing team by surprise. The lower health, however, makes PvE dangerous.",
             "dengarModifiers": [
                 "Is fully invisible when on full hp and not within 15 blocks of an enemy",
-                "When exiting their chest, will obtain Speed and Regen (2 hearts)"
+                "When exiting their chest, will obtain Speed I (10s) and Regen (2 hearts)"
             ],
             "positiveModifiers": [
                 "Hides their own glowing outline, except when carrying wool or a key",
@@ -214,7 +215,7 @@
             "dengarModifiers": [
                 "On kill area of effect debuffs: weakness, slowness and mining fatigue",
                 "Gains 2 Hearts on kill",
-                "Recieves Wither II and Strength I when at 4 or less HP"
+                "Periodically recieves a Potion of Rage (instant damage, Speed I (15s), Strength 1 (5s) splash potion) when they have no other splash potions in inventory"
             ],
             "positiveModifiers": [
                 "Swords break shields for a short duration (3s)",
@@ -256,7 +257,7 @@
             "description": "This class specialises in PvE. The Plague Doctor mitigates toxic effects, neutralising many enemies.",
             "dengarModifiers": [
                 "Gets resistance and fire resistance when at full hp (lingers couple of seconds)",
-                "Gets 2? Lingering Poison II and Slowness III Potions (5 Seconds of effects), recieves more periodically if they have none"
+                "Gets 2 Lingering Poison II and Slowness III Potions (5 Seconds of effects), recieves more periodically if they have none"
             ],
             "positiveModifiers": [
                 "Clear Poison and Wither effects from themselves and their teammates in a 5 block radius around them"
@@ -273,7 +274,7 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Has 2? Quick Charge II? Crossbows which magically reload on any kill with a firework (needs to be in offhand and can be used by other players) and gives +10% Movement Speed and +20% Attack Speed"
+                "Has 2 Quick Charge II? Crossbows which magically reload on any kill with a firework (needs to be in offhand and can be used by other players) and gives +10% Movement Speed and +20% Attack Speed"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
@@ -375,7 +376,7 @@
             "health": 20,
             "description": "The Spider is able to scurry through even the thickest webs to escape enemies, and spin up their own in order to trap their prey.",
             "dengarModifiers": ["Gets cave spider spawn eggs periodically", "Gains 2 Absorption hearts when near a cave spider (Refreshes every 15 seconds)",
-                                "Periodically gets two Copious Amounts of Webs in a Bottle (Splash Potion which applies Slowness X for 10 seconds and Slowness IV for 10 seconds)"],
+                                "Periodically gets two Copious Amounts of Webs in a Bottle (Splash Potion which applies Slowness X for 10 seconds then Slowness IV for another 10 seconds)"],
             "positiveModifiers": [
                 "Increased movement speed and Regeneration in cobwebs",
                 "Increased cobweb placement range (+3)",
@@ -426,8 +427,9 @@
             "health": 20,
             "description": "When threatened, the Iceman can summon an invulnerable shield of ice around themselves. Additionally, their punches carry a chill, slowing any players they hit, although they are vulnerable to fire.",
             "dengarModifiers": [
-                "When it touches the orb creates area of effect slow",
-                "Periodically recieves Blue Ice Insta-Bridge"
+                "Periodically recieves Blue Ice Insta-Bridge",
+                "When at <=10HP gains Speed I",
+                "When at <=6HP gains 2 Absorption Hearts and becomes immune to fire damage (When not in fire or lava)"
             ],
             "positiveModifiers": [
                 "Right click the icy core to gain Regeneration and generate an invulnerable shield of ice around themselves",
