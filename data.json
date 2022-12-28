@@ -26,7 +26,7 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour and -25% Speed when in offhand)",
+                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour and -15% Speed when in offhand)",
                 "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1",
                 "Removes Regeneration from neearby enemies"
             ],
@@ -110,7 +110,7 @@
                 "Gets free scaffolding and steak",
                 "Gains Regen II for 3 second when killing a mob (1 heart)",
                 "Gains Haste III for 5 seconds when killing a mob",
-                "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 4 armour and 15% movement speed)"
+                "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 3 armour and 15% movement speed)"
             ],
             "positiveModifiers": [
                 "Increased mining speed (+40%)",
@@ -145,7 +145,7 @@
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
                 "Recieves Mini-Bucklers (20 Durability +2 armour and armour toughness shields) when they have no shields in inventory",
-                "Has Speed I when no offhand shield",
+                "Has Speed II when no offhand shield",
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown))"
             ],
             "positiveModifiers": [
@@ -163,8 +163,8 @@
             "health": 18,
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
             "dengarModifiers": [
-                "Permanent iron boots with feather falling II, +3 Armour and +1 Armour Toughness", 
-                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP"
+                "Permanent iron boots with feather falling II, +2 Armour and +2 Armour Toughness", 
+                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -4 Max HP"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
@@ -215,7 +215,7 @@
             "dengarModifiers": [
                 "On kill area of effect debuffs: weakness, slowness and mining fatigue",
                 "Gains 2 Hearts on kill",
-                "Periodically recieves a Potion of Rage (instant damage, Speed I (15s), Strength 1 (5s) splash potion) when they have no other splash potions in inventory"
+                "Commonly recieves a Potion of Rage (instant damage, Speed I (15s), Strength 1 (5s) splash potion) when they have no other splash potions in inventory"
             ],
             "positiveModifiers": [
                 "Swords break shields for a short duration (3s)",
@@ -289,9 +289,9 @@
             "health": 20,
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
             "dengarModifiers": [
-                "Any player within 7 blocks that kill a mob get speed I for 3 seconds",
+                "Any player within 7 blocks that is slowed has any speed effects removed",
                 "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)",
-                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +2 armour and 0.5 attack damage in offhand"
+                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +4 armour and +1 attack damage in offhand"
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
