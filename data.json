@@ -291,7 +291,7 @@
             "dengarModifiers": [
                 "Any enemy player within 7 blocks that is slowed has any speed effects removed",
                 "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)",
-                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +3 armour and +1 attack damage in offhand"
+                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +2 armour and +0.75 attack damage in offhand"
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
