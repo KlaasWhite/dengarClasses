@@ -6,7 +6,7 @@
             "health": 22,
             "description": "The Strongman can lift entities above his head and toss them infront of his for some insane plays, but be careful as it takes a good amount of energy!",
             "dengarModifiers": [
-                "Receives no gravity tnt that is automatically ignited",
+                "Receives no gravity tnt that is automatically ignited (Does slightly less damage than normal tnt)",
                 "Gains Resistance and Speed with an empty offhand",
                 "Gains resistance to TNT that blows up on skull"
             ],
@@ -26,9 +26,9 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour and -15% Speed when in offhand)",
+                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour, +0.5 Damage, Thorns 6 and -10% Speed when in offhand)",
                 "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1",
-                "Removes Regeneration from neearby enemies"
+                "Removes Regeneration from nearby enemies"
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -68,7 +68,7 @@
             "description": "Eggsplosives ahead as the Trapping Turtle takes to the field. With devastating placeable mines, secure a defence for your team or turn the enemy’s dungeon into a minefield with this explosive class!",
             "dengarModifiers": [
                 "Periodically gets single use eggs",
-                "Gets 2 absorbtion hearts when placing all eggs, has 15 seconds cooldown*",
+                "Gets 2 absorption hearts when placing all eggs, has 15 seconds cooldown*",
                 "Gains Resistance II on placing an egg"
             ],
             "positiveModifiers": [
@@ -164,7 +164,7 @@
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
             "dengarModifiers": [
                 "Permanent iron boots with feather falling II, +2 Armour and +2 Armour Toughness", 
-                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -4 Max HP"
+                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
@@ -215,7 +215,7 @@
             "dengarModifiers": [
                 "On kill area of effect debuffs: weakness, slowness and mining fatigue",
                 "Gains 2 Hearts on kill",
-                "Commonly recieves a Potion of Rage (instant damage, Speed I (15s), Strength 1 (5s) splash potion) when they have no other splash potions in inventory"
+                "Commonly recieves a Potion of Rage (instant damage, Speed I (25s), Haste II (15s), Strength 1 (7s) splash potion) when they have no other splash potions in inventory"
             ],
             "positiveModifiers": [
                 "Swords break shields for a short duration (3s)",
@@ -239,7 +239,7 @@
                 "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks to 17 ticks",
                 "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks to 2400 ticks",
                 "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)",
-                "Periodically gets 16 tnt spawn eggs which have a longer fuse (use with flint and steel to launch), must have non in inventory to recieve more"
+                "Periodically gets 16 tnt spawn eggs which have a longer fuse (use with flint and steel to launch), must have none in inventory to recieve more"
             ],
             "positiveModifiers": [
                 "Ignites TNT instantly and drops primed TNT on PVP death",
@@ -289,9 +289,9 @@
             "health": 20,
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
             "dengarModifiers": [
-                "Any player within 7 blocks that is slowed has any speed effects removed",
+                "Any enemy player within 7 blocks that is slowed has any speed effects removed",
                 "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)",
-                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +4 armour and +1 attack damage in offhand"
+                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +3 armour and +1 attack damage in offhand"
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
@@ -310,7 +310,7 @@
             "dengarModifiers": [
                 "Resistance I when near full hp ally",
                 "Speed I when near ally with less than 10hp",
-                "Periodically gets a Lingering Levitation + Slow Fall Potion"
+                "Periodically gets 2? Lingering Levitation + Slow Fall Potion"
             ],
             "positiveModifiers": [
                 "Hitting teammates applies instant health (+3), unless they are shielding"
@@ -323,10 +323,11 @@
             "health": 20,
             "description": "This class is a fast and frantic fighter. The Barbarian, driven wild with hunger, is quick to whip up a frenzy in close combat with their fierce lunging ability.",
             "dengarModifiers": [
-                "When at 16 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
-                "When at 16 or less drumsticks gains Speed I for 10 seconds",
+                "When at 14 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
+                "When at 14 or less drumsticks gains Speed I for 10 seconds",
                 "When at 18 or less drumsticks gains Hunger 5",
-                "Starts with a Mystical Golden Axe (Give +2 Armour and +20% Attack Speed in offhand)"
+                "Starts with a Mystical Golden Axe (Give +2 Armour and +20% Attack Speed in offhand)",
+                "Has Feather Falling 4, Projectile Protection 2 Helmet"
             ],
             "positiveModifiers": [
                 "Double tap space to leap forward with increased speed once every 5 seconds"
