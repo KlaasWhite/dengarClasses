@@ -26,9 +26,9 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Has a Cursed Doll (+2 Armour Toughness, +2 Armour, +0.5 Damage, Thorns 6 and -10% Speed when in offhand)",
-                "Whilst holding Doll nearby players with HP>10 and HP>Voodoo recieve wither 2, and otherwise recieve wither 1",
-                "Removes Regeneration from nearby enemies"
+                "Has a Cursed Doll (+2 Armour Toughness, +4 Armour, +0.5 Damage, Thorns 6 and +10% Speed when in offhand)",
+                "Whilst holding Doll nearby players recieve Wither 1 or Wither 2 if they have more HP than the Voodoo",
+                "Removes Regeneration and Speed from nearby enemies"
             ],
             "positiveModifiers": [
                 "Poison, Wither, Weakness, Hunger, Mining Fatigue and Fire effects applied to them will instead apply to the closest unafflicted enemy within 7 blocks",
@@ -274,7 +274,8 @@
             "description": "This class is excellent at money making through PvE. The Looter excels at collecting currency and can be vital to winning wars of attrition.",
             "dengarModifiers": [
                 "Starts with discount (has a Woolworth voucher at the start)",
-                "Has 2 Quick Charge II? Crossbows which magically reload on any kill with a firework (needs to be in offhand and can be used by other players) and gives +10% Movement Speed and +20% Attack Speed"
+                "Has a Quick Charge II? Crossbow which magically reload on any kill with a Nano-Boost (Speed 2, Str 2, Weak 1, Absorption 2) (needs to be in offhand and can be used by other players) and gives +15% Movement Speed, +20% Attack Speed and 2 Armour",
+                "Has a Quick Charge II? Crossbow which magically reload on any kill with a Healing Blast (Instant Health 1, Regen 4, Health Boost 2, Saturation) (needs to be in offhand and can be used by other players) and gives and gives +2 Armour Toughness, 4 Armour and 1 Attack Damage"
             ],
             "positiveModifiers": [
                 "Increased coin drops from standard mobs (+300%)",
@@ -323,10 +324,10 @@
             "health": 20,
             "description": "This class is a fast and frantic fighter. The Barbarian, driven wild with hunger, is quick to whip up a frenzy in close combat with their fierce lunging ability.",
             "dengarModifiers": [
-                "When at 14 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
-                "When at 14 or less drumsticks gains Speed I for 10 seconds",
-                "When at 18 or less drumsticks gains Hunger 5",
-                "Starts with a Mystical Golden Axe (Give +2 Armour and +20% Attack Speed in offhand)",
+                "When at 7 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
+                "When at 7 or less drumsticks gains Speed I for 15 seconds",
+                "When at 9 or less drumsticks gains Hunger 5",
+                "Starts with a Mystical Golden Axe (Give +2 Armour, +25% Attack Speed and +1 Damage in offhand)",
                 "Has Feather Falling 4, Projectile Protection 2 Helmet"
             ],
             "positiveModifiers": [
@@ -410,7 +411,7 @@
                 "Periodically gets XP bottle",
                 "Periodically recieves blue and green carpets",
                 "Players on carpets recieve Speed or Jump Boost temporarily",
-                "Hold Space Warping Crystal to gain buffs for the cost of XP (Speed 5, Haste 5, Regen 2 for 3 seconds [Uses 100XP (Gains Luck when activatable)])"
+                "Hold Space Warping Crystal to gain buffs for the cost of XP (Speed 5, Haste 5, Regen 2, Resistance 1 for 4 seconds [Uses 100XP (Gains Luck when activatable)])"
             ],
             "positiveModifiers": [
                 "Increased XP drops (+100%)",
