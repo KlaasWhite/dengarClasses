@@ -412,7 +412,7 @@
                 "Periodically gets XP bottle",
                 "Periodically recieves blue and green carpets",
                 "Players on carpets recieve Speed or Jump Boost temporarily",
-                "Hold Space Warping Crystal to gain buffs for the cost of XP (Speed 5, Haste 5, Regen 2, Resistance 1 for 4 seconds [Uses 100XP (Gains Luck when activatable)])"
+                "Hold Space Warping Crystal to gain buffs for the cost of XP (Speed 5, Haste 5, Regen 2, Resistance 1 for 4 seconds [Uses 11 Levels])"
             ],
             "positiveModifiers": [
                 "Increased XP drops (+100%)",
