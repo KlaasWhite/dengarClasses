@@ -164,7 +164,8 @@
             "description": "This class is good in PvP. They are very effective at moving around the map and are a great choice as a wool carrier due to their speed buff. However, they might find their bag full of mail difficult to manage.",
             "dengarModifiers": [
                 "Permanent iron boots with feather falling II, +2 Armour and +2 Armour Toughness", 
-                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP"
+                "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP",
+                "Periodically gets Enchanced Sugar (When they have none, can be given to teammates) which gives deals a large amount of damage to recieve Speed 3, 2 Absorption Hearts and some Saturation when consumed"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
@@ -239,7 +240,7 @@
                 "When hold flint and steel in main hand, forces all tnt's fuse within 10 blocks to 17 ticks",
                 "When hold flint and steel in off hand, forces all tnt's fuse within 10 blocks to 2400 ticks",
                 "If a TNT is next to the gren and about to explode (3 Block Radius from feet), gains resistance 4 for 1 second (do a YUMP OOOO)",
-                "Periodically gets 16 tnt spawn eggs which have a longer fuse (use with flint and steel to launch), must have none in inventory to recieve more"
+                "If a TNT is thrown (dropped) onto the ground near them it becomes lit after 1 second"
             ],
             "positiveModifiers": [
                 "Ignites TNT instantly and drops primed TNT on PVP death",
@@ -291,8 +292,8 @@
             "description": "This class specialises in PvE but is still a force to be reckoned with in PvP. The Bulwark is a master of crowd control and can keep hordes of enemies at bay. This power carries with it an unending hunger.",
             "dengarModifiers": [
                 "Any enemy player within 7 blocks that is slowed has any speed effects removed",
-                "Gains Lingering Shield Potion (Absorption I and Resistance I for 10 seconds)",
-                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and +2 armour and +0.75 attack damage in offhand"
+                "When the bulwark drops an iron block it is destroyed and they give nearby players +4 Max HP and Resistance 1 for 60 seconds",
+                "Starts game with an unbreakable grappling hook which gives -4 armour in mainhand and -2 armour and +0.5 attack damage in offhand"
             ],
             "positiveModifiers": [
                 "While sneaking, gain Resistance II and apply Slowness IV in a 5 block radius"
