@@ -128,7 +128,8 @@
             "description": "This class is exceptional in PvP. They can attack faster than all other classes which makes them a deadly combatant.",
             "dengarModifiers": [
                 "Gets haste II when above 10HP",
-                "Recieves Smoke Form Potion periodically if they have no potions in inventory (Speed II, Invis, Absorption and Slow Falling for 15 seconds)"
+                "Recieves Smoke Form Potion periodically if they have no potions in inventory (Speed II, Invis, Absorption and Slow Falling for 15 seconds)",
+                "Recieves Anti Arrow Chicken Scroll"
             ], 
             "positiveModifiers": [
                 "Increased attack speed with swords (+50%)",
@@ -197,7 +198,8 @@
             "description": "This class is designed exclusively for PvP. The Illusionist can disguise their outline as they creep around the map, taking the opposing team by surprise. The lower health, however, makes PvE dangerous.",
             "dengarModifiers": [
                 "Is fully invisible when on full hp and not within 15 blocks of an enemy",
-                "When exiting their chest, will obtain Speed I (10s) and Regen (2 hearts)"
+                "When exiting their chest, will obtain Speed I (10s) and Regen (2 hearts)",
+                "Periodically recieves Smoke Scroll which makes nearby players invisible temporarily"
             ],
             "positiveModifiers": [
                 "Hides their own glowing outline, except when carrying wool or a key",
