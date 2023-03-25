@@ -26,7 +26,7 @@
             "health": 20,
             "description": "The Voodoo carries a cacophony of corrosive concoctions that constantly cycle. Give close monsters and enemy players your own debuffs while spreading the strength of your buffs to your teammates with this unique support class.",
             "dengarModifiers": [
-                "Has a Cursed Doll (+2 Armour Toughness, +4 Armour, +0.5 Damage, Thorns 6 and +10% Speed when in offhand)",
+                "Has a Cursed Doll (+8 Armour Toughness, +0.5 Damage, Thorns 6 and +10% Speed when in offhand)",
                 "Whilst holding Doll nearby players recieve Wither 1 or Wither 2 if they have more HP than the Voodoo",
                 "Removes Regeneration and Speed from nearby enemies"
             ],
@@ -110,7 +110,7 @@
                 "Gets free scaffolding and steak",
                 "Gains Regen II for 3 second when killing a mob (1 heart)",
                 "Gains Haste III for 5 seconds when killing a mob",
-                "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 3 armour and 15% movement speed)"
+                "Has 'The Legendary Block Breaker' (Efficiency II, Iron Pickaxe which gives 4 Armour, 5 Attack Damage, -1.5 Attack Speed (Attack Speed 2.5) and 15% Movement Speed)"
             ],
             "positiveModifiers": [
                 "Increased mining speed (+40%)",
@@ -144,7 +144,7 @@
             "health": 30,
             "description": "This class is suited for both PvP and PvE and is a great choice for beginners. The Knight is a tank, they are good at supporting in dungeons and escorting the wool carriers back to the monument.",
             "dengarModifiers": [
-                "Recieves Mini-Bucklers (20 Durability +2 armour and armour toughness shields) when they have no shields in inventory",
+                "Recieves Bucklers (20 Durability +4 armour toughness shields) when they have no shields in inventory",
                 "Has Speed II when no offhand shield",
                 "Recieves a Knight's Promise item (If in your inventory gives you 2 absorption hearts when near the knight (30 Second Cooldown))"
             ],
@@ -165,7 +165,7 @@
             "dengarModifiers": [
                 "Permanent iron boots with feather falling II, +2 Armour and +2 Armour Toughness", 
                 "Has additional Unbreakable Iron Boots with Feather Falling I, +20% Movement Speed, +2 armour and -2 Max HP",
-                "Periodically gets Enchanced Sugar (When they have none, can be given to teammates) which gives deals a large amount of damage to recieve Speed 3, 2 Absorption Hearts and some Saturation when consumed"
+                "Periodically gets Enchanced Sugar (When they have none, can be given to teammates) which gives deals a damage to recieve Speed 3 and 2 Absorption Hearts when consumed"
             ],
             "positiveModifiers": [
                 "Increased movement speed (+25%)",
@@ -328,7 +328,7 @@
                 "When at 7 or less drumsticks gains Saturation 4 for 1 seconds (gains 2 drumsticks and 8 saturation) and Regen II for 3 Seconds (1 Hearts)",
                 "When at 7 or less drumsticks gains Speed I for 15 seconds",
                 "When at 9 or less drumsticks gains Hunger 5",
-                "Starts with a Mystical Golden Axe (Give +2 Armour, +25% Attack Speed and +1 Damage in offhand)",
+                "Starts with a Mystical Golden Axe (Give +4 Armour Toughness, +25% Attack Speed and +1 Damage in offhand)",
                 "Has Feather Falling 4, Projectile Protection 2 Helmet"
             ],
             "positiveModifiers": [
